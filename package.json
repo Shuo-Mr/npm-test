@@ -1,6 +1,6 @@
 {
   "name": "@shuo/npm-test",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "npm Test package",
   "main": "lib/bundle.cjs.js",
   "jsnext:main": "lib/bundle.esm.js",
