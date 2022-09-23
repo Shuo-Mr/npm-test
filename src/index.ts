@@ -1,5 +1,3 @@
-export function test(a: number, b: number) {
+export function Greeter(a: number, b: number) {
   return a + b;
 }
-
-test(1, 2);
