@@ -1,1 +1,1 @@
-export declare function test(a: number, b: number): number;
+export declare function Greeter(a: number, b: number): number;
