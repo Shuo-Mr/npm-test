@@ -1,5 +1,5 @@
 /*
- * @LastEditTime: 2022-09-22 19:05:34
+ * @LastEditTime: 2022-09-23 09:14:55
  * @Description:
  * @Date: 2022-09-22 18:46:03
  * @Author: liangshuo liangshuoone@aliyun.com
@@ -12,5 +12,5 @@ import rollupConfigBase from "./rollup.config.base";
 
 export default {
   ...rollupConfigBase,
-  plugins: [...baseConfig.plugins, terser(), filesize()],
+  plugins: [...rollupConfigBase.plugins, terser(), filesize()],
 };
